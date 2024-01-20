@@ -1,0 +1,54 @@
+body{
+    background-color: #272B30;
+    color: #fff;
+}
+
+.header img{
+    max-height: 30vh;
+}
+
+.img-logo{
+    max-width: 50px;
+}
+
+.navbar{
+    background-color: #3A497B;
+    border-radius: 1.5rem;
+    padding: 0.25rem 1rem;
+    position: sticky;
+    margin-top: -2rem;
+    box-shadow: 0 0 10px rgb(0 0 0 / 0.7);
+}
+
+.navbar a{
+    color: #fff;
+    cursor: pointer;
+}
+.navbar a:hover{
+    color: #09c;
+}
+.active{
+    color: #09c !important;
+}
+
+.badge-color{
+    background-color: #32383e;
+}
+
+.games .card{
+    background-color: transparent;
+    color: #fff;
+    filter: grayscale(0.7);
+    transition: transform 0.5s, filter 0.5s 0.1s;
+    cursor: pointer;
+}
+
+.games .card:hover{
+    transform: scale(1.05);
+   filter: grayscale(0);
+}
+
+#details{
+    background-color: #272729be;
+    min-height: 100vh;  
+}

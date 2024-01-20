@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+    <section id="games" >
+        <div class="header">
+            <img src="images/wraper.png" alt="" class="w-100 object-fit-cover">
+        </div>
+        <nav class="navbar navbar-expand-lg position-sticky top-0 container z-3 col-md-6 col-lg-9"">
+            <div class=" navbar-brand text-white">
+            <img src="images/logo-sm.png" alt="" class="img-logo"> <span>GAME REVIEWS</span>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-white">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-cat="mmorpg">MMORPG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-cat="shooter">SHOOTER</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-cat="sailing">SAILING</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-cat="permadeath">PERMADEATH</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-cat="superhero">SUPERHERO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-cat="pixel">PIXEL</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container px-0 py-5 games">
+            <div class="row" id="gamesList"></div>
+        </div>
+    </section>
+
+    <section id="details" class="d-none">
+        <div class="container">
+            <div class="hstack justify-content-between">
+                <h3 class="text-center py-4">Details Games</h3>
+                <button class="btn-close btn-close-white" id="btnClose"></button>
+            </div>
+            <div class="row g-4" id="showDetails">
+                <!-- <div class="col-md-4">
+                    <img src="images/thumbnail.jpg" alt="" class="w-100">
+                </div>
+                <div class="col-md-8">
+                    <h3>Title: Tower of Fantasy</h3>
+                    <p>
+                        <span>Category: </span>
+                        <span class="badge text-bg-info">MMORGP</span>
+                    </p>
+                    <p>
+                        <span>Platform: </span>
+                        <span class="badge text-bg-info">Windows</span>
+                    </p>
+                    <p>
+                        <span>Status: </span>
+                        <span class="badge text-bg-info">Live</span>
+                    </p>
+                    <p class="small">
+                        Tower of Fantasy is a 3D open-world RPG, anime-style sci-fi MMO RPG game with unique characters
+                        and beautiful open vistas! Pack your gear and head to the lush planet of Aida, mankind’s last
+                        bastion after depleting Earth’s resources to near-inhabitability. In addition to be a viable
+                        world, Aida is also located near the path of the comet Mara, which contains an energy known as
+                        “Omnium”. To capture this energy, the people built the tower of Omnium, an act that resulted in
+                        a catastrophic disaster. In Tower of Fantasy, players will explore the post-catastrophy world of
+                        Aida, taking in an open world filled with stunning nature and impressive structures. Play as a
+                        selection of characters, each armed with their own unique weapons, and take on the world with
+                        your friends. Take the time to learn about your characters, because you’ll need to know who can
+                        do what in order to build the best parties and defeat your enemies.
+                    </p>
+                    <a href="" class="btn btn-outline-warning" target="_blank">Show Game</a>
+                </div> -->
+            </div>
+        </div>
+
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script type="module" src="js/main.js"></script>
+
+</body>
+
+</html>
